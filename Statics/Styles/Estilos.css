@@ -13,11 +13,11 @@ input
   padding: 0.5rem;
   border: 1px solid #ccc;
   border-radius: 3px;
-  width: 70%;
+  width: 80%;
 };
 #main-header
 {
-    font-size: 86px;
+    font-size: 92px;
     align-content: center;
     justify-content: center;
     text-align: center;
