@@ -1,0 +1,40 @@
+body
+{
+    background-color: #bfcdd6;   
+    place-items: center;
+}
+label 
+{
+  margin-bottom: 0.5rem;  
+  font-weight: bold;
+}
+input
+{
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 70%;
+};
+#main-header
+{
+    font-size: 86px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+#forms-section
+{
+    display: flex;
+    background-color: #ffffff;
+    
+    height: 100%;
+    width: 70%;              
+    border: 1px solid #000000;   
+}
+
+.campo
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}

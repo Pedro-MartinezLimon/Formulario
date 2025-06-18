@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Statics/Styles/Estilos.css">
+    <title>Formulario completo</title>
+</head>
+<body>
+    <h1 id="main-header">Registro</h1> 
+    <section id="forms-section">
+        <form id="main-form">
+            <div class="campo">
+                <label for="nombre">Nombre Completo</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre completo" required>
+            </div>
+            <div class="campo">
+                <label for="edad">Edad</label>
+                <input type="text" name="edad" id="edad" placeholder="Edad" required>
+            </div>
+            <div class="campo">
+                <label for="CodigoPostal">Código Postal</label>
+                <input type="text" name="CodigoPostal" id="CodigoPostal" placeholder="Código Postal" required>
+            </div>
+            <div class="campo">
+                <label for="Genero">Género</label>
+                
+                <label for="Masculino">Másculino</label>
+                <input type="radio" value="Masculino" name="Genero" class="genero" placeholder="Género" required>
+                
+                <label for="Masculino">Fenemino</label>
+                <input type="radio" value="Femenino" name="Genero" class="genero" placeholder="Género" required>
+                
+                <label for="Masculino">Otro</label>
+                <input type="radio" value="Otro" name="Genero" class="genero" placeholder="Género" required>
+            </div>
+            <div class="campo">
+                <label for="Interes">Intereses (Selecciona todos los que apliquen)</label>
+                
+                <label for="Tecnologia">Tecnología</label>
+                <input type="checkbox" name="Interes" id="Tecnologia" value="Tecnologia">
+                
+                <label for="Deportes">Deportes</label>
+                <input type="checkbox" name="Interes" id="Deportes" value="Deportes">
+
+                <label for="Musica">Música</label>
+                <input type="checkbox" name="Interes" id="Musica" value="Musica">
+
+                <label for="Arte">Arte</label>
+                <input type="checkbox" name="Interes" id="Arte" value="Arte">
+            </div>
+            <div class="campo">
+                <label for="Pais">País</label>
+                <select name="Pais" id="Pais">
+                    <option value="Mexico" class="op_select">México</option>
+                    <option value="China" class="op_select">China</option>
+                    <option value="USA" class="op_select">USA</option>
+                    <option value="Peru" class="op_select">Perú</option>
+                    <option value="Italia" class="op_select">Italia</option>
+                    <option value="Francia" class="op_select">Francia</option>
+                </select>
+            </div>
+            <div class="campo">
+                <label for="Comentarios">Comentarios adicionales:</label>
+                <textarea name="" id=""></textarea>
+            </div>
+            <div class="campo">
+                <label for="Imagen">Subir imagen:</label>
+                <input type="file" accept="image/*">
+            </div>
+
+            <button type="submit">Enviar formulario</button>
+        </form>
+    </section>
+
+    <script src="Dynamics/JS/Control.js"></script>
+</body>
+</html>
